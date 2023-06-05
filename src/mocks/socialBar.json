@@ -1,0 +1,23 @@
+[
+  {
+    "id":"LinkedIn",
+    "icon": "LinkedIn",
+    "url":"https://www.linkedin.com/in/julieta-eva-garcia/"
+  },
+  {
+    "id":"Github",
+    "icon": "Github",
+    "url":"https://github.com/Julietteve"
+  },
+  {
+    "id":"Gmail",
+    "icon": "Gmail",
+    "url":"mailto:julieta.eva.garcia@gmail.com"
+  },
+  {
+    "id":"YouTube",
+    "icon": "YouTube",
+    "url":"https://youtu.be/O8w4YenX1aM?t=49"
+  }
+
+]

@@ -1,0 +1,36 @@
+.message-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-anchor{
+    font-family: 'Roboto', sans-serif;
+    background-color: #014a99;
+    display: block;
+    padding: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: all .2s ease-in-out;
+}
+
+.message-anchor:hover{
+    transform: scale(1.1);
+}
+
+.message-ad{
+    margin-top: 1rem;
+}
+
+.message-ad p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: red;
+    font-style: italic;
+    text-transform: uppercase;
+}

@@ -1,0 +1,15 @@
+.modal-message{
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.modal-message p{
+    color: grey;
+    display: block;
+    padding: .5rem;
+    line-height: 1.5;
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Watermelon",
+        "votes" : 8,
+        "imgURL":"https://www.jiomart.com/images/product/original/590001262/watermelon-1-pc-approx-4-kg-6-kg-product-images-o590001262-p591026794-0-202203170808.jpg"
+    },
+    {
+        "name":"Peaches",
+        "votes" : 2,
+        "imgURL":"https://www.pngall.com/wp-content/uploads/2016/05/Peach-PNG-Image.png"
+    },
+    {
+        "name":"Grapes",
+        "votes" : 7,
+        "imgURL":"https://images.squarespace-cdn.com/content/v1/60b38bc704a41108e1293072/1623774845893-MSR9XOHEC3KTB6JUTHU2/SCARLOTTA.png"
+    },
+    {
+        "name":"Mango",
+        "votes" : 8,
+        "imgURL":"https://www.pngall.com/wp-content/uploads/2016/04/Mango-Transparent.png"
+    }
+]

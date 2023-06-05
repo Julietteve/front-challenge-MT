@@ -1,0 +1,61 @@
+section{
+    padding-top: 1.5rem;
+}
+.input-primary{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: box-shadow 0.3s;
+    margin: .5rem .5rem;
+}
+
+.input-primary:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-primary{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color:#a98afe;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: box-shadow 0.3s;
+    margin: .5rem .5rem;
+    font-weight: 600;
+}
+
+.button-secondary{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: lightgrey;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: box-shadow 0.3s;
+    margin: .5rem .5rem;
+    font-weight: 600;
+}
+
+.button-primary:hover,.button-secondary:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.button-primary:hover,.button-secondary:active {
+    transform: translateY(1px);
+}
+
+.button-primary:active:focus{
+    background-color: #8b63f7;
+}

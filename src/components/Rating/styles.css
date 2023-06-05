@@ -1,0 +1,19 @@
+.rating-emoji{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.rating-emoji h1:first-child{
+    margin-right: 0.5rem;
+}
+
+.active-star{
+    color: yellow;
+    cursor: pointer;
+}
+
+.non-active-star{
+    color:lightgrey;
+    cursor: pointer;
+}

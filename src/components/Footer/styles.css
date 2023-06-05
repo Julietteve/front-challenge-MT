@@ -1,0 +1,12 @@
+.footer-container{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: lightgray .6px solid;
+}
+
+.footer-container a{
+    cursor: pointer;
+    color: #8b63f7;
+}

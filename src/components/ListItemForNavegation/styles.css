@@ -1,0 +1,32 @@
+.list-navigation-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 1rem
+}
+
+.list-navigation-list h1{
+    font-family: 'GFS Didot', serif;
+}
+
+.list-item-name{
+    color: #a98afe;
+}
+
+.list-navigation-list img{
+   width: 20%;
+   border-radius: 100%;
+}
+
+.list-navigation-container{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-active{
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "nameENG":"Apollo",
+        "nameGRK":"Απόλλων",
+        "imgURL":"https://img.freepik.com/vector-premium/escultura-antigua-apolo-estilo-minimalista-moda-ilustracion-vectorial-dios-griego-impresiones-camisetas-carteles-postales-tatuajes-mas_501165-715.jpg"
+    },
+    {
+        "id":2,
+        "nameENG":"Aphrodite",
+        "nameGRK":"Αφροδίτη",
+        "imgURL":"https://img.freepik.com/vector-premium/escultura-antigua-muse-estilo-minimalista-moda-ilustracion-vectorial-dios-griego-impresiones-camisetas-carteles-postales-tatuajes-mas_501165-708.jpg"
+    },
+    {
+        "id":3,
+        "nameENG":"Athena",
+        "nameGRK":"Αθήνα",
+        "imgURL":"https://img.freepik.com/vector-premium/cabeza-estatua-antigua-estilo-minimalista-moda-ilustracion-vectorial-dios-griego-impresiones-camisetas-carteles-postales-tatuajes-mas_501165-704.jpg"
+    },
+    {
+        "id":4,
+        "nameENG":"Hermes",
+        "nameGRK":"Ερμής",
+        "imgURL":"https://img.freepik.com/vector-premium/escultura-antigua-antinoo-estilo-minimalista-moda-ilustracion-vectorial-dios-griego-impresiones-camisetas-carteles-postales-tatuajes-mas_501165-713.jpg"
+    }
+]

@@ -1,0 +1,59 @@
+.team-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-container {
+    max-width: 400px;
+    margin: 1rem;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+
+.team-container-info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team-container h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color:#d9ccfc ;
+  }
+  
+.team-container h3 {
+    color: #555555;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.players{
+    margin-right: 2rem;
+}
+
+.games {
+    margin-left: 2rem;
+}
+  
+.players ul,
+.games ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.players li,
+.games li {
+    margin-bottom: 4px;
+}
+  
+.games li span {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
