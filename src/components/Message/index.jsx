@@ -27,7 +27,7 @@ export function Message() {
 			{
 				toggleParagraph ?
 				<div className="message-ad">
-					<img src="call-vector.png"></img>
+					<img src="call-vector.png" alt="better-call-saul"></img>
 					<p>Better Call +11 22 33 44 now!</p>
 				</div>
 				:

@@ -3,7 +3,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import {
     FocusableInputWrap,
-    Footer,
     Grocery,
     ImageGallery,
     ListItemsForNavigation,
@@ -19,12 +18,13 @@ import itemNavigation from "../../mocks/itemsNavigation.json"
 import "./styles.css"
 
 export function Main (){
+
     const [ openModal, setOpenModal ] = useState(true)
 
     return(
         <section>
             <div>
-                <h2>Tasks List</h2>
+                <h2>Tests</h2>
             </div>
             <Tabs>
                 <TabList>
@@ -41,13 +41,16 @@ export function Main (){
                     <FocusableInputWrap/>
                 </TabPanel>
                 <TabPanel>
-                    <Grocery products={products}/>
+                    <Grocery 
+                        products={products}/>
                 </TabPanel>
                 <TabPanel>
-                    <ImageGallery links={links}/>
+                    <ImageGallery 
+                        links={links}/>
                 </TabPanel>
                 <TabPanel>
-                    <ListItemsForNavigation itemsList={itemNavigation}/>
+                    <ListItemsForNavigation 
+                        itemsList={itemNavigation}/>
                 </TabPanel>
                 <TabPanel>
                     <Message/>

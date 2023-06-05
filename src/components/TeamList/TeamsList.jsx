@@ -71,7 +71,7 @@ const TeamInfo = (props) => {
 	const {team} = props
 	
 	return (
-	  <div className="team-container" key={team.name}>
+	  <div className="team-container">
 		<h2>{team.name}</h2>
 		<div className="team-container-info">
 			<div className="players">
@@ -125,7 +125,7 @@ export function TeamsList() {
 
 	// Filtering teams that with at least 3 players
 	function teamsWithMoreThanThreePlayers() {
-		const filteredTeams = TEAMS.filter((team)=> team.players.length > 3)
+		const filteredTeams = teams.filter((team)=> team.players.length > 3)
 		setTeams(filteredTeams)
 	}
 
@@ -135,7 +135,6 @@ export function TeamsList() {
 			<button className="button-primary" onClick={orderTeamByScoreHighestToLowest}>Highest to Lowest</button>
 			<button className="button-primary" onClick={orderTeamByScoreLowestToHighest}>Lowest to Highest</button>
 			<button className="button-primary" onClick={teamsWithMoreThanThreePlayers}>Teams with at least 3 players</button>
-
 			<ul>
 				<div className="team-list-container">
 					{

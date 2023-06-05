@@ -16,9 +16,9 @@
     box-sizing: border-box;
 }
 
-.gallery-container p{
+.empty-state{
     font-style: italic;
-    color: grey;
+    color: lightgray;
 }
   
 .gallery-image {

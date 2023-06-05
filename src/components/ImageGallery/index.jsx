@@ -10,6 +10,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
+import theme from "../../utils/theme"
 import './styles.css'
 
 function Image(props) {
@@ -18,12 +19,12 @@ function Image(props) {
 
 	return (
 		<div className="gallery-image-container">
-			<img className="gallery-image" src={src} />
+			<img className="gallery-image" src={src} alt={`album-cover ${src}`}/>
 			<button onClick={onRemove}>
 				<FontAwesomeIcon 
 					icon={faCircleXmark} 
 					fontSize={'1.5rem'}
-					color='#a98afe'
+					color={theme.pastel_lilac}
 					className="delete-icon"
 				/>
 			</button>
@@ -37,7 +38,7 @@ export function ImageGallery(props) {
 	const [ galleryImages, setImagesGallery ] = useState(links)
 
 	const onRemove = (id) => {
-		const removedImage = galleryImages.filter(image => image.id != id)
+		const removedImage = galleryImages.filter(image => image.id !== id)
 		setImagesGallery(removedImage)
 	}
 
@@ -56,7 +57,7 @@ export function ImageGallery(props) {
 						))
 					)
 					:
-					<p>No images to show</p>
+					<p className="empty-state">No images to show</p>
 				}
 			</div>
 		</section>

@@ -73,7 +73,6 @@ export function Rating() {
         			/>
 				))
 			}
-
 		</section>
 	)
 }

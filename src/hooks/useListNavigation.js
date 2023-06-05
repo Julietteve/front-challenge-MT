@@ -9,7 +9,7 @@ export function useListNavigation () {
 		if(event.key === "ArrowUp" || event.key === "ArrowLeft"){
 			setSelectedIndex((prevState)=> prevState > 0 ? prevState -1 : activeItemRef.current.length)
 		}
-		else if(event.key === "ArrowDown" || event.key == "ArrowRight"){
+		else if(event.key === "ArrowDown" || event.key === "ArrowRight"){
 			setSelectedIndex((prevState)=> prevState < activeItemRef.current.length ? prevState + 1 : 0)
 		}
 	}
@@ -20,7 +20,6 @@ export function useListNavigation () {
 			document.removeEventListener("keydown",handleKeyDown)
 		}
 	},[activeItemRef])
-
     
     return [selectedIndex, activeItemRef]
 

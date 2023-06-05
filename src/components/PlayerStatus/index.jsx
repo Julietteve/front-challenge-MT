@@ -27,7 +27,7 @@ export function PlayerStatus() {
 
 	// Toggle between the two status values - 'Away' and 'Online'
 	function onToggleStatus() {
-		setStatus(prevState => prevState == 'Online' ? 'Away' : 'Online')
+		setStatus(prevState => prevState === 'Online' ? 'Away' : 'Online')
 	}
 
 	function onReset (){

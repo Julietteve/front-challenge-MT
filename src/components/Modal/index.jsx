@@ -2,7 +2,7 @@ import React from 'react';
 import { createPortal } from 'react-dom';
 import "./styles.css"
 
-const Modal = (props) => {
+export function Modal(props){
 
     const {children,handleModalClose} = props
 
@@ -16,5 +16,3 @@ const Modal = (props) => {
         document.getElementById('modal')
     )
 };
-
-export default Modal;

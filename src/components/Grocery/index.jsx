@@ -38,9 +38,9 @@ function Product(props) {
 				</div>
 				<span className="product-card-title"><h3>{name}</h3></span>
 				<div className="product-card-votes-container">
-					<button className="product-card-handler" onClick={handlePlus}>+</button>
-					<span className={votes > 0 ? "product-vote-pos" : "product-vote-neg"}>{votes}</span>
 					<button className="product-card-handler" onClick={handleMinus}>-</button>
+					<span className={votes > 0 ? "product-vote-pos" : "product-vote-neg"}>{votes} votes</span>
+					<button className="product-card-handler" onClick={handlePlus}>+</button>
 				</div>
 			</div>
 		</li>
